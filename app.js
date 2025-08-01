@@ -14,7 +14,6 @@ function generarNumeroSecreto() {
             return generarNumeroSecreto();
         } else {
             numeroSorteado.push(numeroGenerado);
-            console.log(numeroGenerado);
             return numeroGenerado;
         }
     }
@@ -68,3 +67,4 @@ function nuevoJuego() {
     limpiarInput();
     return;
 }
+
